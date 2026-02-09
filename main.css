@@ -1,0 +1,75 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-midnight);
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    padding: var(--spacing-md);
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: var(--spacing-md);
+}
+
+.title-line {
+    display: block;
+    color: var(--color-neon-teal);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--color-mint-green);
+    margin-bottom: var(--spacing-lg);
+    letter-spacing: 2px;
+}
+
+/* Bio Section */
+.bio-section {
+    padding: var(--spacing-xl) 0;
+    background: var(--color-dark-gray);
+}
+
+.bio-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--spacing-lg);
+    align-items: center;
+}
+
+.bio-image {
+    position: relative;
+}
+
+.image-frame {
+    position: relative;
+    border: 3px solid var(--color-mint-green);
+    padding: var(--spacing-sm);
+    background: var(--color-black);
+}
+
+.image-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bio-content {
+    padding: var(--spacing-md);
+}
+
+.bio-text {
+    color: var(--color-off-white);
+    margin-bottom: var(--spacing-md);
+    font-size: 18px;
+    line-height: 1.8;
+}
